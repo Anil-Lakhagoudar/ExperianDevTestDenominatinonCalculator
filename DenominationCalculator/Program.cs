@@ -20,7 +20,7 @@ Console.WriteLine("Enter given amount: ");
 given = Convert.ToDouble(Console.ReadLine());
 
 // Calculate change to return
-double changeToReturn = given - productPrice;
+double changeToReturn = Math.Round(given - productPrice,2);
 Console.WriteLine("Amount to be returned - {0}", changeToReturn);
 
 CurrencyChangeCalculator currencyChangeCalculator = new CurrencyChangeCalculator();

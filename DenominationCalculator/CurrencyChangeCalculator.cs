@@ -14,7 +14,7 @@ namespace DenominationCalculator
         public List<DenominationModel> GetChanges(double productPrice, double givenAmount)
         {
             List<DenominationModel> denominations = new List<DenominationModel>();
-            double changeToReturn = givenAmount - productPrice;
+            double changeToReturn = Math.Round(givenAmount - productPrice, 2);
 
             // Calculate the denominations for the change
             double remainingChange = changeToReturn;
@@ -38,7 +38,7 @@ namespace DenominationCalculator
                 // Build the output
                 StringBuilder outputBuilder = new StringBuilder();
                 groupChanges.ToList().ForEach(x => {
-                    double denomination = x.Key >= 1 ? x.Key : ((x.Key * 100) / 1);
+                    double denomination = x.Key >= 1 ? x.Key : Math.Round(((x.Key * 100) / 1),2);
                     denominations.Add(new DenominationModel()
                     {
                         Denomination = Convert.ToInt32(denomination),
