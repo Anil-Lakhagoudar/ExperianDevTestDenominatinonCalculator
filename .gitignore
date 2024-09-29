@@ -9,3 +9,6 @@
 /DenominationCalculator/bin/Debug/net6.0
 /DenominationCalculator/.vs/DenominationCalculator/DesignTimeBuild
 *.json
+/TestDenominationCalculator/bin/Release/net6.0
+/DenominationCalculator/bin/Release/net6.0
+/DenominationCalculator/Properties/PublishProfiles
