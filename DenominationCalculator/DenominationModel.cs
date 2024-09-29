@@ -10,6 +10,6 @@ namespace DenominationCalculator
     {
         public int Denomination { get; set; }
         public int Count { get; set; }
-        public string DenominationWithSymbol { get; set; }
+        public string? DenominationWithSymbol { get; set; }
     }
 }
