@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/DenominationCalculator/obj
+/DenominationCalculator/.vs/DenominationCalculator/v17
+/TestDenominationCalculator/bin/Debug/net6.0
+/TestDenominationCalculator/obj
+/DenominationCalculator/bin/Debug/net6.0
+/DenominationCalculator/.vs/DenominationCalculator/DesignTimeBuild
+*.json
