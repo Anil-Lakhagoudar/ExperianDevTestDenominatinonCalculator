@@ -2,7 +2,7 @@
 using DenominationCalculator;
 using System.Text;
 
-Console.WriteLine("Change calculator");
+Console.WriteLine("Currency Change calculator");
 
 /// <summary>
 /// global variables

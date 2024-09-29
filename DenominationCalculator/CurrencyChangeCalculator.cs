@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace DenominationCalculator
 {
+    /// <summary>
+    /// Currency Change Calculator
+    /// </summary>
     public class CurrencyChangeCalculator
     {
         List<int> denominationsList = new List<int>() { 1, 2, 5, 10, 20, 50, 100 };
@@ -65,8 +68,11 @@ namespace DenominationCalculator
 
 
         /// <summary>
-        /// calculate change method
+        /// Calculate Change
         /// </summary>
+        /// <param name="denominationsList">Predefined denomination list</param>
+        /// <param name="change">Change</param>
+        /// <returns>returns change</returns>
         private double CalculateChange(List<int> denominationsList, double change)
         {
             int denominationIndex = 0;
