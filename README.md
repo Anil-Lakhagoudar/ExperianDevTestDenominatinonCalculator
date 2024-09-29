@@ -9,6 +9,11 @@ Your change is: <br/>
 2 x £2 <br/>
 1 x 50p <br/>
 
+## Install .Net 6 to run this application
+https://learn.microsoft.com/en-us/dotnet/core/install/windows
+
+## Download release folder to run the exe file
+https://github.com/Anil-Lakhagoudar/ExperianDevTestDenominatinonCalculator/tree/main/Release
 
 
 ## output <br/>
