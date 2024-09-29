@@ -18,7 +18,7 @@ https://github.com/Anil-Lakhagoudar/ExperianDevTestDenominatinonCalculator/tree/
 ## Application setup and run
   ### Clone the repository from github
         git clone https://github.com/Anil-Lakhagoudar/ExperianDevTestDenominationCalculator.git
-        Open solution in Visual Studio Code and run the application
+        Open solution in Visual Studio Code, build and run the application
 
 ## output <br/>
 <img width="248" alt="image" src="https://github.com/user-attachments/assets/dbc7214d-2b62-4b92-a644-292ad45ea4ad">
