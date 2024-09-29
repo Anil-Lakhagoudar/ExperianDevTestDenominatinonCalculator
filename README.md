@@ -15,8 +15,8 @@ https://learn.microsoft.com/en-us/dotnet/core/install/windows
 ## Download release folder to run the exe file
 https://github.com/Anil-Lakhagoudar/ExperianDevTestDenominatinonCalculator/tree/main/Release
 
-## Run the application from Visual studio from the gitbub link
-  ## Clone the repository from github
+## Application setup and run
+  ### Clone the repository from github
         git clone https://github.com/Anil-Lakhagoudar/ExperianDevTestDenominationCalculator.git
         Open solution in Visual Studio Code and run the application
 
