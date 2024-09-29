@@ -7,3 +7,5 @@
 /TestDenominationCalculator/bin/Debug/net6.0
 /TestDenominationCalculator/obj
 /DenominationCalculator/bin/Debug/net6.0
+/DenominationCalculator/.vs/DenominationCalculator/DesignTimeBuild
+*.json
