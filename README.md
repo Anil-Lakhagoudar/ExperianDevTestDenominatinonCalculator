@@ -17,7 +17,7 @@ https://github.com/Anil-Lakhagoudar/ExperianDevTestDenominatinonCalculator/tree/
 
 ## Run the application from Visual studio from the gitbub link
   ## Clone the repository from github
-        https://github.com/Anil-Lakhagoudar/ExperianDevTestDenominationCalculator.git
+        git clone https://github.com/Anil-Lakhagoudar/ExperianDevTestDenominationCalculator.git
   ## Open solution in Visual Studio Code and run the application
 
 ## output <br/>
