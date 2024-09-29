@@ -11,8 +11,21 @@ namespace DenominationCalculator
         List<int> denominationsList = new List<int>() { 1, 2, 5, 10, 20, 50, 100 };
         List<double> listOfChanges = new List<double>();
 
+        /// <summary>
+        /// Get Changes to calculate denomications
+        /// </summary>
+        /// <param name="productPrice">product price</param>
+        /// <param name="givenAmount">given amount</param>
+        /// <returns>List of denomination model</returns>
+        /// <exception cref="Exception">exceptions</exception>
         public List<DenominationModel> GetChanges(double productPrice, double givenAmount)
         {
+            // Throw exception when given amount is less than product price
+            if (givenAmount < productPrice) throw new Exception("Amount should be more than product price");
+
+            // Throw exception when product price is zero
+            if (productPrice <= 0) throw new Exception("Product price should not be zero");
+
             List<DenominationModel> denominations = new List<DenominationModel>();
             double changeToReturn = Math.Round(givenAmount - productPrice, 2);
 
