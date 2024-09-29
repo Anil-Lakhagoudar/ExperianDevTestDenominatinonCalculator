@@ -30,6 +30,7 @@ if (denominations.Count() > 0)
 {
     // Build the output
     StringBuilder outputBuilder = new StringBuilder();
+    outputBuilder.AppendLine("Your change is:");
     denominations.ToList().ForEach(x => {
 
         outputBuilder.AppendLine(String.Format("{0} x {1}", x.Count, x.DenominationWithSymbol));
