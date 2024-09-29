@@ -1,4 +1,4 @@
-# Denominatinon Calculator
+# Denomination Calculator
 
 ## Application to display the change to be returned split down by Denomination
 ### Example: 
